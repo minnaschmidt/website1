@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mizuki Matsuda - Financial Wellbeing for Women</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="StyleSheets/custom.css">
+    <link rel="icon" href="Images/common/favicon.jpg">
+</head>
+
+<body>
+
+    <div class="container container my-5">
+        <header class="mb-4">
+            <h2>Report</h2>
+        </header>
+        <div class="text-md-right">Mizuki Matsuda</div>
+        <!--Introduction-->
+        <h3 class="mt-4 mb-3">Introduction</h3>
+        <div class="text-muted outer-container">
+            While this began as a student project for a Web Development course, it materialized into a genuine business endeavor. My client, Minna Schmidt, recently launched her career as a Financial Advisor after dedicating 15 years to prestigious firms like McKinsey & Company and Blackrock. Instead of traditional newsletters, Minna has chosen to utilize Instagram to convey her professional insights and messages, emphasizing the importance of investments. Her primary target audience is women, whom she aims to empower towards achieving financial well-being. Additionally, Minna had previously compiled a "brochure" using PowerPoint, which was saved as a PDF. The primary objective of this project was to transform the content of this brochure into a cohesive website. One of the site's pages is specifically designed to showcase an archive of her Instagram posts, serving as a modernized newsletter.
+        </div>
+        <section class=" outer-container mb-5">
+            
+            <!--Purpose-->
+            <div class="inner-container">
+                <h4>Purpose of the website</h4>
+                <p class="text-muted">
+                    This website offers Financial Well-Being Coaching for women. Minna, the financial coach, assists women in creating their "balance sheet", enabling a comprehensive understanding of their entire financial situation. This includes guidance on effectively managing monthly and yearly financial flows. Surprisingly, numerous women, even those in high-paying roles, have not embarked on their investment journeys and often find parts of their finances in disarray. This website primarily promotes a 6-week coaching program while providing useful information such as resources for self-study and a newsletter archive to rectify these issues and empower women towards financial independence.
+                </p>
+            </div>
+            <!--Structure-->
+            <article class="mb-5 inner-container">
+                <h4>Structure of the website</h4>
+                <ol>
+                    <li class="text-muted">
+                        <span class="lead">Home</span>
+                        <p>
+                            The homepage will welcome visitors with a strong message emphasizing the significance of investing and the core value of financial well-being. Just below the viewport (commonly referred to as "below the fold"), there will be three prominent action buttons: "Read my Newsletter", "Book the Free Intro Session", and "Reserve a Seat for the Course". These buttons will be placed towards the bottom of the page to ensure they are easily accessible without appearing too pushy to the visitor. Moreover, these action buttons also serve as an "index" or guide to other sections of the site. This feature is particularly beneficial for mobile users where the primary navigation is hidden under a hamburger menu, allowing them to quickly discern the site's key offerings even if they aren't directly highlighted on the homepage.
+                        </p>
+                    </li>
+                    <li class="text-muted">
+                        <span class="lead">Our Story</span>
+                        <p>
+                            This page delves into my client's personal journey, highlighting her epiphany about the significance of investment when she and her husband embarked on the journey to purchase their dream home. Additionally, to maintain a concise layout, various testimonials from contented clients are presented in a carousel format. Positioned at the page's bottom is the "free intro chat" integrated with Calendly. This allows users interested in taking the next step to instantly view my client's availability and schedule a conversation.
+                        </p>
+                    </li>                
+                    <li class="text-muted">
+                        <span class="lead">Resource</span>
+                        <p>
+                            My client had previously curated a list of recommended resources, including books, podcasts, and websites, which she shared with past clients. She once mentioned in her brochure: "There are two paths to financial well-being - either access my resource list for free and learn independently, or seek my assistance." Now, rather than sending a PDF via email, this resource list is accessible on a dedicated webpage. This page caters to those who might opt for self-study over enrolling in courses, offering an assortment of resources to enhance their financial knowledge. Each item is conveniently linked to platforms like Apple Podcasts, Spotify, or Amazon. Presenting these materials in an organized manner, depending on their type, is an approach I've adopted from the Harvard Business Review.
+                        </p>
+                    </li>
+                    <li class="text-muted">
+                        <span class="lead">Instagram Posts (Newsletter)</span>
+                        <p>
+                            My client provides daily insights via Instagram, aiming to continually remind women of the significance of their financial well-being. Some posts feature video messages, while others present powerpoint cards, all complemented by in-depth articles. Two pivotal Instagram posts have been spotlighted in the "Most Popular" section of this page. The first outlines her "Mission," detailing what she aims to accomplish through her course. The second, titled "Are you an expat?", underscores her unique value as a financial advisor with an international perspective; a reflection of her diverse clientele.
+                        </p>
+                        <p>
+                            Given the increasing preference for audiovisual content over written text, I've included the original videos for these two highlighted posts. Other articles can be found in the "Archive" section. These posts are arranged chronologically, with the most recent content at the forefront, and they are further organized using a topic-based filter system such as "investing," "well-being," "mission," and "collaboration." Clicking on the "read more" button redirects the user to the detailed post on the financial coach's Instagram page.
+                        </p>
+                    </li>                
+                    <li class="text-muted">
+                        <span class="lead">Course</span>
+                        <p>
+                            This section provides a comprehensive overview of the courses designed to bolster women's financial management capabilities. The spotlight is on a 6-week course that's divided into five detailed sessions, each detailing learning outcomes and setting clear expectations. The structure of the course is visually represented using a Bootstrap card style and grid layout. Positioned below the fold is the "Reserve a seat" section. Adopting a similar approach to the "Book intro chat" on the "Our story" page and the three action buttons on the index page, we've placed this call-to-action at the bottom to ensure it doesn't come across as overly aggressive. I've integrated Formspree, so when a reader clicks submit, it triggers an email to my client.
+                        </p>
+                    </li>                  
+                </ol>
+            </article> 
+        </section>
+
+       
+        <h3 class="mt-4 mb-3">JavaScript & Other Backend Related Functions</h3>
+        <section class="outer-container mb-5">
+            <ul>
+                <li class="text-muted">
+                    <span class="lead">Extention to Compliment Lack of Backend Functionality</span>
+        
+                    <p class="text-muted m-2 p-2">
+                        Firstly, I undertook this project for a real business owned by a friend who recently launched her venture. At the onset, the absence of a backend posed a challenge. However, I came across tools like <a href="https://formspree.io/" target="_blank">Formspree</a> that allow for input capture and automatically send her an email when a user submits information. I also integrated <a href="https://calendly.com/" target="_blank">Calendly</a> for booking introductory chats, allowing users to stay on the site rather than redirecting them to another platform. This integration was easier than I had anticipated.
+                    </p>
+                    <p class="text-muted m-2 p-2">
+                        By utilizing <a href="https://formspree.io/" target="_blank">Formspree</a>, my website allows my client to receive an email when a web user hits "submit" to register for her course. Similarly, I integrated the <a href="https://calendly.com/" target="_blank">Calendly</a> UI into my website, enabling users to directly view my client's availability. Additionally, I used <a href="https://vimeo.com/" target="_blank">Vimeo</a> to upload two primary videos (each 25MB, even after reducing resolution) without having to upload the MP4 files to a local folder. I consider this achievement a result of working for a real business rather than just academically; it motivated me to seek solutions that supplemented the backend skills I hadn't acquired during my course.
+                    </p>
+                </li>
+                <li class="text-muted">
+                    <span class="lead">Using JavaScript to Compensate for Database-like Functionality</span>
+        
+                    <p class="text-muted m-2 p-2">
+                        This innovation, I believe, is due to my client's unfamiliarity with web development coding. It provided me with the impetus to automate and enhance processes, ensuring she can smoothly operate and refresh the website.
+                    </p>
+                    
+                    <span class="lead">Case 1: Efficient Newsletter Updates</span>
+                    <p class="text-muted m-2 p-2">
+                        I developed a straightforward JavaScript script, <a href="push_articles.js" target="_blank">push_articles.js</a>, that populates the "archive" section of the Newsletter Page. The input JS file, <a href="articles.js" target="_blank">articles.js</a>, is simple, with a few variables such as date, link, category, and description. Additionally, she only needs to save images in the "newsletter" folder with the date as the name (e.g., "2023-09-13.jpg"), which will automatically add the images to the archive section. This system eliminates her need to navigate complex HTML files whenever she needs to update the website with new newsletters.
+                    </p>
+        
+                    <span class="lead">Case 2: Course Update with Handlebars.js</span>
+                    <p class="text-muted m-2 p-2">
+                        Another challenge was the regular (monthly) update of <a href="courses.html#logistics">group session starting dates</a>. For this, I employed Handlebars.js and created the backend-like functionality at the bottom of courses.html file. The input file she manages, <a href="path/to/course.js" target="_blank">course.js</a>, contains only the start dates for two group lessons. Instead of having her navigate through a lengthy HTML or JS file, she can simply update this one file to reflect new course dates, streamlining the process for her and making it user-friendly.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        
+        
+        <h3 class="mt-4 mb-3">What went well</h3>
+        <section class="outer-container mb-5">
+            <p class="text-muted m-2 p-2">
+                Kindly refer to Appendix for the full client's feedback. Below is the extraction from it.
+            </p>
+            <ul>
+                <li class="text-muted">
+                    <span class="lead">Competitor Analysis & Wireframe Creation</span>
+                    
+                    <p class="text-muted m-2 p-2">
+                        At the onset of the project, I implemented the lessons I had learned early in my course, focusing on <a href="Report/Competitor_Analysis.pdf">competitor analysis</a> and wireframe creation. Drawing inspiration from the best practices I observed in competitor websites, I quickly realized the potential of the materials my client already possessed. This expedited the design process and allowed me to swiftly present a draft to my client. She was notably impressed with how the draft website already looked so refined in such a short span.
+                    </p>
+                    <blockquote>
+                        "Mizuki's unique approach was evident right from the start. Her rapid analysis of competing websites coupled with her ability to leverage my existing materials was commendable. The swift development of a wireframe sketch not only captured my vision but also provided innovative ideas to enhance my content. The structure she developed ensured the website was not only informative but also user-friendly, light, and captivating."
+                    </blockquote>
+                </li>
+                <li class="text-muted">
+                    <span class="lead">Using Instagram as a Newsletter</span>
+                    <p class="text-muted m-2 p-2">
+                        When considering the website's newsletter content, our initial idea centered on my client's vast knowledge in finance. Given her expertise, the idea of introducing books, podcasts, and other relevant resources in the newsletter seemed apt. However, my client voiced her concerns about her limited availability to produce consistent, high-quality content for this feature.
+                    </p>
+                    <blockquote>
+                        "One of the challenges was my uncertainty about customer engagement through the website. Mizuki and I brainstormed several ideas, including a book review newsletter. While intriguing, I was wary of the time commitment required to produce such content consistently."
+                    </blockquote>
+                    <p class="text-muted m-2 p-2">
+                        Taking into account her concerns, I proposed a pivot: to repurpose her existing Instagram content as a pseudo-newsletter for the website. This not only ensured fresh content on the website but also reinforced her primary messages to clients through multiple channels. Furthermore, recognizing the depth and quality of her recommendations, we incorporated a "Resources" page on the website. This page showcases her top recommendations, further establishing her credibility in the field.
+                    </p>
+                    <blockquote>
+                        "Mizuki's suggestion to harness my Instagram content for the website was a game-changer. It was an ingenious way to recycle existing content and ensure consistent engagement on the website. The added 'Resources' page amplifies the essence of my recommendations, highlighting the quality I stand for."
+                    </blockquote>
+                </li>
+            </ul>
+            
+        </section>  
+        
+        <h3 class="mt-4 mb-3">Areas of Improvement</h3>
+<section class="outer-container mb-5">
+    <p>
+        Below are highlights from the constructive feedback I received during user testing. For the complete feedback, please refer to the Appendix.
+    </p>
+    
+    <ol>
+        <li class="text-muted">
+            <span class="lead">Branding</span>
+            <p class="m-2 p-2">
+                Capture the essence of your business, such as: "Financial Wellbeing for Her". Consider a slogan to accompany the logo.
+            </p>
+            <p>
+                Use a domain name with matching email addresses for a more professional appearance. Also, consider opting for a shorter domain name.
+            </p>    
+        </li>
+        
+        <li class="text-muted">
+            <span class="lead">Design Appeal</span>
+            <p class="m-2 p-2">
+                Utilizing a template can enhance the website's professional look. Currently exploring the <a href="https://themes.getbootstrap.com/product/square/">Bootstrap theme template</a>.
+            </p>
+        </li>
+        
+        <li class="text-muted">
+            <span class="lead">Usability Enhancement</span>
+            <p class="m-2 p-2">
+                Feature the free intro chat prominently at the top of the page.
+            </p>
+            <p class="m-2 p-2">
+                The navigation bar should remain fixed and visible even when users scroll down.
+            </p>
+        </li>
+        
+        <li class="text-muted">
+            <span class="lead">Structure</span>
+            <p class="m-2 p-2">
+                Here are top coaching websites for reference to potentially re-evaluate our structure:
+                <ul>
+                    <li><a href="https://prestonsmiles.com/">prestonsmiles.com</a></li>
+                    <li><a href="https://www.cortneymcdermott.com/">cortneymcdermott.com</a></li>
+                    <li><a href="https://stratejoy.com/">stratejoy.com</a></li>
+                    <li><a href="https://maggieedwards.com/">maggieedwards.com</a></li>    
+                </ul>
+            </p>
+        </li>
+        
+        <li class="text-muted">
+            <span class="lead">Key Messages to Highlight on the Landing Page</span>
+            <p class="m-2 p-2">
+                <ul>
+                    <li>Financial Well-Being Coaching for Women</li>
+                    <li>Empowering women to create their own "balance sheet" for a holistic understanding of their financial situation</li>
+                    <li>Two paths to financial well-being: access my resources for free and learn independently, or seek guided assistance.</li>
+                    <li>Building Financial Wellbeing for women of diverse ages and backgrounds.</li>
+                </ul>
+            </p>
+        </li>
+    </ol>
+</section>
+
+
+        
+        <h3 class="mt-4 mb-3">Resources:</h3>
+        <section class="outer-container mb-5">
+            <div class="inner-container">
+                <h4 class="mt-4 mb-3">Libraries:</h4>
+                <ul>
+                    <!--Bootstrap-->
+                    <li class="text-muted">Bootstrap, 'Documentation', 2023. [Online]. Available:
+                        <ul>
+                            <li>Layout
+                                <ul>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/layout/columns/">Columns</a>. [Accessed: 11- Sep- 2023].</li>
+                                </ul>
+                            </li>
+                            <li>Forms
+                                <ul>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/forms/overview/">Overview</a>. [Accessed: 11- Sep- 2023].</li>
+                                </ul>
+                            </li>
+                            <li>Components
+                                <ul>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/components/accordion/">Accordion</a>. [Accessed: 11- Sep- 2023].</li>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/components/badge/">Badge</a>. [Accessed: 11- Sep- 2023].</li>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/components/card/">Card</a>. [Accessed: 11- Sep- 2023].</li>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/components/carousel/">Carousel</a>. [Accessed: 11- Sep- 2023].</li>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/components/navbar/">Navbar</a>. [Accessed: 11- Sep- 2023].</li>
+                                </ul>
+                            </li>
+                            <li>Helpers
+                                <ul>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/helpers/clearfix/">Clearfix</a>. [Accessed: 11- Sep- 2023].</li>
+                                </ul>
+                            </li>
+                            <li>Utilities
+                                <ul>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/utilities/flex/">Flex</a>. [Accessed: 11- Sep- 2023].</li>
+                                    <li><a href="https://getbootstrap.com/docs/5.3/utilities/float/">Float</a>. [Accessed: 11- Sep- 2023].</li>
+                                </ul>
+                            </li>
+                            <li>Extensions
+                                <ul>
+                                    <li><a href="https://icons.getbootstrap.com/">Icons</a>. [Accessed: 11- Sep- 2023].</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--Font awesome-->
+                    <li lass="text-muted">FontAwesome.com, 'Icons', 2023. [Online]. Available: <a href="https://fontawesome.com/">https://fontawesome.com/</a>. [Accessed: 11- Sep- 2023].</li>
+                    <!--Handlebar-->
+                    <li lass="text-muted">Handlebarsjs.com, 'Guide', 2023. [Online]. Available: <a href="https://handlebarsjs.com/guide/#what-is-handlebars">https://handlebarsjs.com/guide/</a>. [Accessed: 11- Sep- 2023].</li>
+                </ul>
+            </div>
+            <div class="inner-container">
+                <h4 class="mt-4 mb-3">YouTube Videos</h4>
+                <ul>
+                    <!-- Accordion -->
+                    <li>Net Ninja, 'Bootstrap 5 Crash Course Tutorial #11 - Accordions', 2021. [Online]. Available: <a href="#">YouTube</a>. [Accessed: 11- Sep- 2023].</li>
+                    
+                    <!-- Card -->
+                    <li>Net Ninja, 'Bootstrap 5 Crash Course Tutorial #10 - Cards', 2021. [Online]. Available: <a href="https://www.youtube.com/watch?v=NRoET8-8cbw&t=485s">YouTube</a>. [Accessed: 11- Sep- 2023].</li>
+                    
+                    <!-- Icons -->
+                    <li>Net Ninja, 'Bootstrap 5 Crash Course Tutorial #13 - Bootstrap Icons', 2021. [Online]. Available: <a href="https://www.youtube.com/watch?v=rhvMRsE_6sY&t=164s">YouTube</a>. [Accessed: 11- Sep- 2023].</li>
+                    
+                    <!-- Navbar -->
+                    <li>Adrian Twarog, 'Navbar Bootstrap 5 | Bootstrap Navbar Tutorial', 2021. [Online]. Available: <a href="https://www.youtube.com/watch?v=qNifU_aQRio">YouTube</a>. [Accessed: 11- Sep- 2023].</li>
+                    
+                    <!-- Footer -->
+                    <li>The Providers, 'Bootstrap 5 Footer | How to create Footer using Html and Bootstrap', 2020. [Online]. Available: <a href="https://www.youtube.com/watch?v=4fexoLuGpeI">YouTube</a>. [Accessed: 11- Sep- 2023].</li>
+                </ul>
+            </div>         
+        </section>
+        <h3 class="mt-4 mb-3">Appendices:</h3>
+        <!--Appendices-->
+        <Section>
+            <!--Appendix 1-->
+            <div class="outer-container">
+                <h4>Sitemap</h4>
+                <ol>
+                    <li>Home
+                        <ul>
+                            <li>What is Financial Wellbeing?</li>
+                            <li>Call to Action – what can I do to take next action?</li>
+                        </ul>
+                    </li>
+                    <li>Our Story
+                        <ul>
+                            <li>Dream Home (My client’s own narrative)</li>
+                            <li>Meet your Coach, Minna (Client’s profile)</li>
+                            <li>Book free intro chat</li>
+                        </ul>
+                    </li>
+                    <li>Resources
+                        <ul>
+                            <li>Books</li>
+                            <li>Podcasts</li>
+                            <li>Websites</li>
+                        </ul>
+                    </li>
+                    <li>Instagram (News Letter)
+                        <ul>
+                            <li>Most Popular</li>
+                            <li>Archives – search by topic</li>
+                        </ul>
+                    </li>
+                    <li>Courses
+                        <ul>
+                            <li>6 weeks course</li>
+                            <li>All courses</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Appendix 2-->
+            <div class="outer-container">
+            <h4>Wireframe</h4>
+                <!-- Appendix 2-a -->
+               
+                    <ol>
+                        <li>Home: 
+                            <a href="Report/Wireframe/Version3/mobile_home.jpg">Mobile View</a> & 
+                            <a href="Report/Wireframe/Version3/web_home.jpg">Web View</a>
+                        </li>
+                        <li>Our Story: 
+                            <a href="Report/Wireframe/Version3/mobile_ourstory.jpg">Mobile View</a> & 
+                            <a href="Report/Wireframe/Version3/web_ourstory.jpg">Web View</a>
+                        </li>
+                        <li>Resources: 
+                            <a href="Report/Wireframe/Version3/mobile_resources.jpg">Mobile View</a> & 
+                            <a href="Report/Wireframe/Version3/web_resources.jpg">Web View</a>
+                        </li>
+                        <li>Instagram (News Letter): 
+                            <a href="Report/Wireframe/Version3/mobile_news_letter.jpg">Mobile View</a> & 
+                            <a href="Report/Wireframe/Version3/web_news_letter.jpg">Web View</a>
+                        </li>
+                        <li>Courses: 
+                            <a href="Report/Wireframe/Version3/mobile_courses.jpg">Mobile View</a> & 
+                            <a href="Report/Wireframe/Version3/web_courses.jpg">Web View</a>
+                        </li>
+                    </ol>    
+                </article>
+            </div>
+            <article>
+                
+                <div class="outer-container">
+                    <h4>Client's Feedback</h4>
+                    <p>
+                        I have recently started building my business for women’s financial empowerment. The coaching program that I provide is called “Build Your Financial Wellbeing”, and it targets women of all ages and backgrounds, who want to take their finances to the next level and start investing. As a busy entrepreneur, my initial months have been spent in acquiring the first classes of clients, building my approach and tools for coaching, building a partnership with a wealth management company etc. I knew how important it would be for my business to have a compelling website. It is an essential part of the communication approach, and is like a digital business card that provides credibility to my business offering.
+                    </p>
+                    <p> 
+                        Given how busy I was, I simply did not have time to start working on a website. And I knew that with my non-existent IT skills, it would be certainly quite an endeavor for me to build the website. It was therefore like a gift from heaven that my friend Mizuki contacted me and offered to build the website as part of her study project. I was so happy for this offer, and of the chance to work together again with my dear friend.
+                    </p>  
+                    <p>
+                        In the beginning, I was quite worried about the website project due to my past experience. Some years ago, I developed an e-commerce website for an online clothing sales business that I manage, and that project took months and was expensive. I had to rely on the support of an IT company, as well as the services of a consultant and designer. In the end, we managed to build a nice website, but it was a rather painful process. In my current situation, I would not have the ability to invest so much time to build a website, as I’m focusing on the build-up of the business.
+                    </p>
+                    <p>
+                        Mizuki understood my concerns and took a different approach. She explained that she would be able to build a light website herself, based on existing materials that I had. She very quickly did an analysis of the competitor websites, to find out what was really needed, and what was the approach that the best ones had taken. Leveraging my existing flyer, she started very quickly to develop a first wireframes sketch of the website and prompted me with ideas for how to improve the current content. I was very impressed that it was possible so quickly to already have a draft website that looked great. We then started developing the structure further to ensure that the website would be easy to manage, give all the necessary information, yet remain light, easy to read and inspirational.
+                    </p>
+                    <p> 
+                        One issue with the website development was that I did not have a very clear picture of how I would plan to engage with customers. We explored the idea of doing a newsletter based on book reviews, but I knew how little time I would have to create the content. In order for a website to stay interesting, there has to be new content relatively often, and I am afraid I would not be able to deliver. Later on, Mizuki proposed me various options. It was her idea to start leveraging the content that I am already producing on Instagram, and include it on the website. This is a great way to “re-use” content that already exists, and also ensure that my main messages to clients are seen ideally multiple times.
+                    </p>
+                    <p>  
+                        The website now includes all the main features that I need for the buildup phase of the business, and I’m very satisfied with the result. The website is my “business card”, it includes testimonials, my story, the “newsletter” content from Instagram, as well as information about the next course. The clients will be able to communicate with me (book a Zoom call or book a place on a course, or simply connect via email). Perhaps in a later stage, I will need to develop the website further, for example by having a backend and the ability for clients to login to a closed section of the website, where videos and materials would be available for course participants, as well as ability to accept credit card payments. However, this is currently not needed. I will probably also work with a designer to develop the style and pictures to be more concise.  
+                    </p>
+                    <p>
+                        I am very happy about the outcome of the website, and forever grateful for Mizuki’s help. I would not have been able to do this without her.
+                    </p>
+                </div>      
+            </article>
+            <article>
+               
+                <div class="outer-container">
+                    <h4>User Feedback</h4>
+                    <h5>Branding</h5>
+                    <p>Web site identity</p>
+                    <p>Logo</p>
+                    <p>Slogan</p>
+                    <p>Translate the essence of your business, for example: Finance wellbeing for her. A slogan to appear with the logo.</p>
+                    <p>Consider buying a specific domain name like <a href="http://www.financewelbeingforher.com">www.financewelbeingforher.com</a> with a set of email addresses. It appears more professional. Consideration could also be given to a shorter name.</p>
+
+                    <h5>Attractive design</h5>
+                    <p>More soft design, could use Joomla templates already build and customize them. <a href="https://www.joomla.org/">Joomla</a> gives a lot of templates, offering unlimited design. Features include multilingual management, multi users (login), search engine capabilities, and responsive design for multiple devices. Less words and more pictures and videos, as per the saying an image is worth a hundred pages.</p>
+                    
+
+                    <h5>Content:</h5>
+                    <p>Put in value the coaching approach on the first page. Offer a 6-week coaching program combined with accessible resources to learn independently (to be available on user login?).</p>
+
+                    <h5>Key objectives to be visible:</h5>
+                    <ul>
+                        <li>Financial Well-Being Coaching for women</li>
+                        <li>Assists women in creating their "balance sheet", enabling a comprehensive understanding of their entire financial situation</li>
+                        <li>"There are two paths to financial well-being - either access my resource list for free and learn independently, or seek my assistance. (Auto training)</li>
+                        <li>Build Your Financial Wellbeing - targets women of all ages and backgrounds.</li>
+                    </ul>
+
+                    <h5>Site structure:</h5>
+                    <p>The site structure could be inspired by some of the top 10 coaching websites such as:</p>
+                    <ul>
+                        <li><a href="https://prestonsmiles.com/">prestonsmiles.com</a></li>
+                        <li><a href="https://www.cortneymcdermott.com/">cortneymcdermott.com</a></li>
+                        <li><a href="https://stratejoy.com/">stratejoy.com</a></li>
+                        <li><a href="https://maggieedwards.com/">maggieedwards.com</a></li>
+                    </ul>
+                    <p>Consider adding a free consultation link and a book appointment feature, and highlight it at the top of the page. This should be visible at all times, even while the user is scrolling. For social media links, place them on the right side at the top of the page to invite people to click on them. The top navigation should remain sticky on the page as the user scrolls.</p>
+
+                </div>
+                    
+            </article>
+    </div>
+</body>
+</html>
